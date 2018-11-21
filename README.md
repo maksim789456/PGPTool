@@ -14,7 +14,8 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Maksim V** - *All code* - [maksim789456](https://github.com/maksim789456)
+* **Maksim V** - *All c# code, Old UI Design* - [maksim789456](https://github.com/maksim789456)
+* **Alexey Pechenkin** - *New UI Design* - [TheCrazyWolf](https://vk.com/thecrazywolf)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
