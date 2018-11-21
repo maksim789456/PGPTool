@@ -15,8 +15,8 @@ namespace NewUI
 
         private async void metroButtonGenerate_Click(object sender, EventArgs e)
         {
-            string pathToPubKey = metroTextBoxPathToSave.Text != "" ? metroTextBoxPathToSave.Text + @"\pub.asc" : "";
-            string pathToPrivKey = metroTextBoxPathToSave.Text != "" ? metroTextBoxPathToSave.Text + @"\pri.asc" : "";
+            string pathToPubKey = metroTextBoxPathToSave.Text != "" ? metroTextBoxPathToSave.Text + @"\pub.key" : "";
+            string pathToPrivKey = metroTextBoxPathToSave.Text != "" ? metroTextBoxPathToSave.Text + @"\pri.key" : "";
             string username = metroTextBoxUsername.Text != "" ? metroTextBoxUsername.Text : "";
             string password = metroTextBoxPassword.Text != "" ? metroTextBoxPassword.Text : "";
             int strength = metroTextBoxStrength.Text != "" ? Convert.ToInt32(metroTextBoxStrength.Text) : 1024;

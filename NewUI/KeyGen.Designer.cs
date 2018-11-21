@@ -98,6 +98,7 @@
             this.metroTextBoxPassword.Font = new System.Drawing.Font("Segoe UI Light", 10F);
             this.metroTextBoxPassword.Location = new System.Drawing.Point(104, 108);
             this.metroTextBoxPassword.Name = "metroTextBoxPassword";
+            this.metroTextBoxPassword.PasswordChar = '*';
             this.metroTextBoxPassword.Size = new System.Drawing.Size(126, 25);
             this.metroTextBoxPassword.TabIndex = 9;
             // 
@@ -200,6 +201,7 @@
             this.metroButtonPathSelect.TabIndex = 40;
             this.metroButtonPathSelect.Text = "...";
             this.metroButtonPathSelect.UseSelectable = true;
+            this.metroButtonPathSelect.Click += new System.EventHandler(this.metroButtonPathSelect_Click);
             // 
             // groupBox1
             // 
