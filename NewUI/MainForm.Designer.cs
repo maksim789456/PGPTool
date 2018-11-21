@@ -157,6 +157,7 @@
             // 
             this.metroTextBoxPasswordPGP.Location = new System.Drawing.Point(17, 24);
             this.metroTextBoxPasswordPGP.Name = "metroTextBoxPasswordPGP";
+            this.metroTextBoxPasswordPGP.PasswordChar = '*';
             this.metroTextBoxPasswordPGP.Size = new System.Drawing.Size(405, 25);
             this.metroTextBoxPasswordPGP.TabIndex = 48;
             // 
@@ -373,7 +374,7 @@
             this.pictureBox1.TabIndex = 40;
             this.pictureBox1.TabStop = false;
             // 
-            // Main
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -383,7 +384,7 @@
             this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MaximizeBox = false;
-            this.Name = "Main";
+            this.Name = "MainForm";
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow;
             this.Style = MetroFramework.MetroColorStyle.White;
