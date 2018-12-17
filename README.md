@@ -1,4 +1,4 @@
-# PGP File Tool
+# PGP File Tool [![Build Status](https://travis-ci.org/maksim789456/PGPTool.svg?branch=master)](https://travis-ci.org/maksim789456/PGPTool)
 
 Простенькая программа для шифрования и дешифрования файлов с использование PGP
 
